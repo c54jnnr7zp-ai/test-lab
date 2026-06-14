@@ -1,0 +1,6 @@
+{
+  "name": "Learning Lab",
+  "description": "Learning Lab is your gateway to education and essential tutoring and test-preparation services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
