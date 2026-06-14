@@ -9,7 +9,7 @@ export default function About() {
     <section id="about" className="py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
-          
+
           {/* Left Text Column */}
           <motion.div
             className="lg:col-span-6 flex flex-col items-start gap-6"

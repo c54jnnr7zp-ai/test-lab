@@ -11,7 +11,7 @@ export default function Hero() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
+
           {/* Left Text and Content Side */}
           <motion.div
             className="lg:col-span-7 flex flex-col items-start gap-6 text-left order-2 lg:order-1"
@@ -60,7 +60,7 @@ export default function Hero() {
             transition={{ duration: 0.9, ease: 'easeOut', delay: 0.2 }}
             id="hero-vector-content"
           >
-            <HeroIllustration />
+            <img src='https://github.com/c54jnnr7zp-ai/Learning-Lab/blob/main/assets/learning-lab-hero.png?raw=true' alt="Tutoring" />
           </motion.div>
 
         </div>
