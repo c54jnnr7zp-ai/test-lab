@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-brand-dark text-white/80 py-16 border-t border-white/5 relative" id="site-footer">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          
+
           {/* Brand Info */}
           <div className="md:col-span-2 flex flex-col items-start gap-4">
             <a href="#home">
@@ -21,7 +21,7 @@ export default function Footer() {
               </div>
             </a>
             <p className="font-sans text-sm text-white/60 leading-relaxed max-w-sm mt-2">
-              Learning Lab is dedicated to nurturing early mathematical readiness, confidence, test resiliency, and lifetime intellectual curiosity for Foundation Phase students.
+              Learning Lab is dedicated to nurturing early readiness, confidence, test resiliency, and lifetime intellectual curiosity for Foundation Phase students.
             </p>
           </div>
 
@@ -68,11 +68,11 @@ export default function Footer() {
                   Student Registration
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <span className="font-sans text-xs text-white/40 block mt-4 border-l border-brand-pink pl-3">
                   All our tutors are thoroughly background vetted & certified for educational child protective safety.
                 </span>
-              </li>
+              </li> */}
             </ul>
           </div>
 

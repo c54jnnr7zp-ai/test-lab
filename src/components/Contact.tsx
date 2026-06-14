@@ -16,12 +16,39 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formState.name || !formState.email || !formState.message) return;
-    
+
     setLoading(true);
-    // Simulate API call
+
+    // Prepare WhatsApp message
+    const whatsappNumber = "27614597003";
+
+    const gradeLabels: Record<string, string> = {
+      'preschool': 'Preschool & Toddlers',
+      'grade-r': 'Grade R (Foundation phase)',
+      'grade-1': 'Grade 1 (Foundations)',
+      'grade-2': 'Grade 2 (Reading/Math)',
+      'grade-3': 'Grade 3 (Milestones)',
+      'other': 'Other Tutoring Support'
+    };
+
+    const readableGrade = gradeLabels[formState.grade] || formState.grade;
+
+    const messageBody = `*New Student Registration Inquiry*%0A%0A` +
+      `*Name:* ${formState.name}%0A` +
+      `*Email:* ${formState.email}%0A` +
+      `*Grade/Phase:* ${readableGrade}%0A` +
+      `*Message:* ${formState.message}`;
+
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${messageBody}`;
+
+    // Simulate API call and redirect
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
+
+      // Open WhatsApp in a new tab
+      window.open(whatsappUrl, '_blank');
+
       setFormState({
         name: '',
         email: '',
@@ -35,7 +62,7 @@ export default function Contact() {
     <section id="contact" className="py-24 bg-brand-purple-light/30 relative">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-          
+
           {/* Left Column: Essential Contact Details */}
           <motion.div
             className="lg:col-span-5 flex flex-col gap-8"
@@ -58,7 +85,7 @@ export default function Contact() {
 
             {/* Practical list cards */}
             <div className="flex flex-col gap-5">
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-100 hover:border-pink-100 transition-colors">
+              {/* <div className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-100 hover:border-pink-100 transition-colors">
                 <div className="p-3 bg-pink-50 text-brand-pink rounded-lg">
                   <Mail className="w-5 h-5" />
                 </div>
@@ -68,7 +95,7 @@ export default function Contact() {
                     {siteContent.contactSection.email}
                   </a>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-100 hover:border-pink-100 transition-colors">
                 <div className="p-3 bg-pink-50 text-brand-pink rounded-lg">
@@ -82,7 +109,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-100 hover:border-pink-100 transition-colors">
+              {/* <div className="flex items-center gap-4 p-4 rounded-xl bg-white border border-gray-100 hover:border-pink-100 transition-colors">
                 <div className="p-3 bg-pink-50 text-brand-pink rounded-lg">
                   <MapPin className="w-5 h-5" />
                 </div>
@@ -92,7 +119,7 @@ export default function Contact() {
                     {siteContent.contactSection.address}
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
 

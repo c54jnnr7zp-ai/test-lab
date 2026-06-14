@@ -91,14 +91,14 @@ export default function Mission() {
                 </div>
 
                 {/* Information copy */}
-                <div className="flex flex-col text-left justify-center select-none">
+                {/* <div className="flex flex-col text-left justify-center select-none">
                   <span className="font-display font-extrabold text-[13px] text-brand-dark leading-none pb-0.5">
                     {badge.title}
                   </span>
                   <span className="font-sans text-[10px] font-bold text-gray-400 leading-none">
                     {badge.subtitle}
                   </span>
-                </div>
+                </div> */}
               </motion.div>
             </div>
           </motion.div>

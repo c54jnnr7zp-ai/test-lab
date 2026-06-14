@@ -158,7 +158,7 @@ export const siteContent: SiteContent = {
         id: "ems",
         gradeTag: "Grade 1 - 7",
         subjectTag: "EMS",
-        imgUrl: "https://images.unsplash.com/photo-1542744094-3a31f103e35f?auto=format&fit=crop&q=80&w=600",
+        imgUrl: "https://plus.unsplash.com/premium_photo-1675242132036-36da2715b88e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGVjb25vbWljc3xlbnwwfHwwfHx8MA%3D%3D",
       }
     ],
   },
@@ -239,13 +239,13 @@ export const siteContent: SiteContent = {
   aboutSection: {
     title: "The Best Way To Learn Is With Us",
     subtitle: "LEARN",
-    description1: "At Learning Lab, we offer a welcoming and vibrant environment where foundation-phase kids can learn, grow, and connect with one another. Our friendly, supportive tutors provide tailored services like test preparation, homework assistance, and personalized tutoring that boost both academic skills and confidence.",
+    description1: "At Learning Lab, we understand that no two learners are the same. That’s why we take a tailored approach to education, identifying each learner’s unique strengths, challenges, and learning style. ",
     cta: { text: "Learn more", href: "#contact" },
     imageCard: {
       title: "Why Learning Lab ?",
       description: "With a focus on each child's unique potential, Learning Lab is the perfect place for young learners to thrive together!"
     },
-    imgUrl: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=800",
+    imgUrl: "https://images.unsplash.com/photo-1757193714692-44cdf07a5377?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   reviewsSection: {
     title: "What Parents say about Learning Lab",
@@ -257,7 +257,7 @@ export const siteContent: SiteContent = {
         role: "Tutoring Services",
         review: "The tutors are friendly, supportive, and know how to make learning fun for young kids. I highly recommend their exam preparation and learning support services!",
         rating: 4,
-        imgUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+        imgUrl: "https://plus.unsplash.com/premium_photo-1723683613486-a15861aa678a?q=80&w=2018&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         id: "zandile",
@@ -265,7 +265,7 @@ export const siteContent: SiteContent = {
         role: "Homework Class",
         review: "My daughter used to struggle with her homework, but since joining the homework class, she's become so much more independent and focused.",
         rating: 4,
-        imgUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150"
+        imgUrl: "https://plus.unsplash.com/premium_photo-1661589836910-b3b0bf644bd5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         id: "lungile",
@@ -273,7 +273,7 @@ export const siteContent: SiteContent = {
         role: "Personalized Stationery Package",
         review: "I'm really grateful for Learning Lab's tutoring services and personalized stationery packages. The stationery adds a fun, personal touch, and my son loves it.",
         rating: 4,
-        imgUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150"
+        imgUrl: "https://images.unsplash.com/photo-1678282955795-200c1e18bc7d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         id: "lindiwe",
@@ -289,7 +289,7 @@ export const siteContent: SiteContent = {
         role: "Tutoring Services",
         review: "Learning Lab's test preparation services are amazing! The tutors are patient and explain things in a way my child actually understands.",
         rating: 4,
-        imgUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=150"
+        imgUrl: "https://plus.unsplash.com/premium_photo-1661696473148-6bbf6e1489cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         id: "bongani",
@@ -297,14 +297,14 @@ export const siteContent: SiteContent = {
         role: "Book Covering",
         review: "The book covering service is also a thoughtful touch - it keeps her schoolbooks in great shape all year. Highly recommend them!",
         rating: 4,
-        imgUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+        imgUrl: "https://plus.unsplash.com/premium_photo-1705418263301-73ac1f967904?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     ]
   },
   missionSection: {
     tag: "ABOUT MY LEARNING LAB",
     title: "Our Mission is to build confident, independent learners.",
-    description: "Founded on the belief that every student has the potential to excel, My Learning Lab bridges the gap between traditional classroom learning and individual mastery. Our lab is a space where strategy meets empathy, and where students are equipped with the tools for lifelong success.",
+    description: "Learning Lab is an all inclusive educational support business dedicated to helping school aged learners reach their full academic potential. We specialize in providing personalized assistance across key subjects such as reading, mathematics, writing, and overall study skills, ensuring that every child receives the attention and guidance they need to succeed.",
     stats: [
       { value: "100%", label: "PERSONALIZED ATTENTION" },
       { value: "Elite", label: "ACADEMIC COACHES" }
@@ -319,7 +319,7 @@ export const siteContent: SiteContent = {
     title: "Get In Touch",
     subtitle: "Have questions about our programs or want to register a student? Reach out and we will respond within 2 hours.",
     email: "hello@learninglab.edu",
-    phone: "+27 (0) 11 555 4567",
+    phone: "+27 (61) 459 7003",
     address: "74 Academic Crescent, Suite B, Sandton, Johannesburg",
     successMessage: "Thank you for reaching out! A Learning Lab advisor will inspect your inquiry and contact you shortly.",
   },
