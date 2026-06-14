@@ -3,6 +3,8 @@ import { motion } from 'motion/react';
 import { Award, Sparkles, Smile, BookOpen, CheckSquare, Layers, CheckCircle } from 'lucide-react';
 import { siteContent } from '../content/siteContent';
 
+
+
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Award: Award,
   Sparkles: Sparkles,
@@ -210,7 +212,7 @@ export default function Features() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <img src="assets/Teaching-amico.svg" alt="Tutoring" />
+              <img src="https://raw.githubusercontent.com/c54jnnr7zp-ai/test-lab/3da3e580fb210912c7effc06fb1d13d2aa96b1bd/assets/Teaching-amico.svg" alt="Tutoring" />
             </motion.div>
 
             {/* Bullets List */}
@@ -291,7 +293,7 @@ export default function Features() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <img src="assets/Teaching-pana.svg" alt="Tutoring" />
+              <img src="https://raw.githubusercontent.com/c54jnnr7zp-ai/test-lab/3da3e580fb210912c7effc06fb1d13d2aa96b1bd/assets/Teaching-pana.svg" alt="Tutoring" />
 
             </motion.div>
 
